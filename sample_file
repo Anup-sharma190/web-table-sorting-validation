@@ -1,0 +1,17 @@
+# Step 1: Create a virtual environment (optional but recommended)
+python -m venv venv
+# Activate the environment (Windows)
+venv\Scripts\activate
+# Activate the environment (Linux/Mac)
+source venv/bin/activate
+
+# Step 2: Install dependencies
+pip install -r requirements.txt
+
+# Step 3: Run the Selenium script
+python "WEB TABLES SORTING USING SELENIUM.py"
+
+
+
+output
+Test completed successfully. Web table is sorted correctly.
